@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/chillow");
+
+/*===== 
+.color1 {color: #fe28a1;}
+.color2 {color: #ff626a;}
+.color3 {color: #ffb965;}
+.color4 {color: #fffa94;}
+.color5 {color: #fffcce;} =====*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #76a36b;
+}
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0c3e31;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+  color: #060609;
+}
+button {
+  padding: 9px 25px;
+  background-color: #417452;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: #ffc6c6;
+  color: #060609;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  max-font-size: 500%;
+  color: #0c3e31;
+  text-align: center;
+  font-weight: bold;
+  max-width: 800px;
+  margin: 0 auto;
+  float: none;
+}
+
+.flex-container.firstImage {
+  position: absolute;
+  width: 260px;
+  filter: drop-shadow(5px 10px 15px);
+  size: 1rem;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #0c3e31;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  font-size: 800;
+}
+h3,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 5rem;
+  height: auto;
+}
+.containerAll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container1 {
+}
+.card1 {
+  width: 320px;
+  height: 400px;
+  background-color: #417452;
+  border-radius: 1rem;
+  padding: 4rem 2rem 0;
+  color: #edf0f1;
+  overflow-y: hidden;
+}
+.img1 {
+  position: absolute;
+  background-color: transparent;
+  width: 260px;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+.cardData1 {
+  transform: translateY(13.2rem);
+  text-align: center;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardTitle1 {
+  color: #ffc6c6;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardPrice1 {
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardDesc1 {
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.button1 {
+  display: block;
+  width: max-content;
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.2s;
+  color: black;
+  background-color: #10503a;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.button1:hover {
+  box-shadow: 0 18px 40px -12px rgba(242, 162, 12, 0.35);
+}
+.img1,
+.cardData1,
+.cardPrice1,
+.cardTitle1,
+.cardDesc1 {
+  transition: 0.5s;
+}
+.card1:hover .img1 {
+  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+.card1:hover .cardData1 {
+  transform: translateY(4.8rem);
+}
+.card1:hover.cardTitle1 {
+  transform: translateX(-2.3rem);
+  margin-bottom: 0;
+}
+.card1:hover .cardPrice1 {
+  transform: translateX(-6.8rem);
+}
+.card1:hover .cardDesc1,
+.card1:hover.button1 {
+  transition-delay: 0.2s;
+  opacity: 100%;
+}
+
+.container2 {
+}
+.card2 {
+  width: 320px;
+  height: 400px;
+  background-color: #417452;
+  border-radius: 1rem;
+  padding: 4rem 2rem 0;
+  color: #edf0f1;
+  overflow-y: hidden;
+}
+.img2 {
+  position: absolute;
+  background-color: transparent;
+  width: 260px;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+.cardData2 {
+  transform: translateY(13.2rem);
+  text-align: center;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardTitle2 {
+  color: #ffc6c6;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardPrice2 {
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardDesc2 {
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.button2 {
+  display: block;
+  width: max-content;
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.2s;
+  color: black;
+  background-color: #10503a;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.button2:hover {
+  box-shadow: 0 18px 40px -12px rgba(242, 162, 12, 0.35);
+}
+.img2,
+.cardData2,
+.cardPrice2,
+.cardTitle2,
+.cardDesc2,
+.button2 {
+  transition: 0.5s;
+}
+.card2:hover .img2 {
+  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+.card2:hover .cardData2 {
+  transform: translateY(4.8rem);
+}
+.card2:hover.cardTitle2 {
+  transform: translateX(-2.3rem);
+  margin-bottom: 0;
+}
+.card2:hover .cardPrice2 {
+  transform: translateX(-6.8rem);
+}
+.card2:hover .cardDesc2,
+.card2:hover.button2 {
+  transition-delay: 0.2s;
+  opacity: 100%;
+}
+.container3 {
+}
+.card3 {
+  width: 320px;
+  height: 400px;
+  background-color: #417452;
+  border-radius: 1rem;
+  padding: 4rem 2rem 0;
+  color: #edf0f1;
+  overflow-y: hidden;
+}
+.img3 {
+  position: absolute;
+  background-color: transparent;
+  width: 260px;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+.cardData3 {
+  transform: translateY(13.2rem);
+  text-align: center;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardTitle3 {
+  color: #ffc6c6;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardPrice3 {
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.cardDesc3 {
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+.button3 {
+  display: block;
+  width: max-content;
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.2s;
+  color: black;
+  background-color: #10503a;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.button3:hover {
+  box-shadow: 0 18px 40px -12px rgba(242, 162, 12, 0.35);
+}
+.img3,
+.cardData3,
+.cardPrice3,
+.cardTitle3,
+.cardDesc3 {
+  transition: 0.5s;
+}
+.card3:hover .img3 {
+  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+.card3:hover .cardData3 {
+  transform: translateY(4.8rem);
+}
+.card3:hover.cardTitle3 {
+  transform: translateX(-2.3rem);
+  margin-bottom: 0;
+}
+.card3:hover .cardPrice3 {
+  transform: translateX(-6.8rem);
+}
+.card3:hover .cardDesc3,
+.card3:hover.button3 {
+  transition-delay: 0.2s;
+  opacity: 100%;
+}
+
+.TGIF {
+  width: auto;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  width: 100%;
+  height: auto;
+}
